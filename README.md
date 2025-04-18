@@ -91,7 +91,7 @@ Execute the program using runserver command.
 
 ```
 
-## OUTPUT
+## OUTPUT 
 
 ![alt text](<Screenshot 2025-04-04 072824.png>)
 
