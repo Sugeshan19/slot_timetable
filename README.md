@@ -1,7 +1,7 @@
 # Ex03 Time Table
-## Name: SUGESHAN
+## Name: sugeshan
 ## Reg.no: 212224040337
-## Date:03.04.2025
+## Date:15.04.2025
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -28,72 +28,114 @@ Execute the program using runserver command.
 ## PROGRAM
 ```
 
-<head>
-    <title>
-        slot time table
-    </title>
-</head>
+<html> 
+<head> 
+<title>Slot Timetable</title> 
+</head> 
 <body style="background-color: black;" text="white">
-    <center>
-        <h1>Slot Time Table - SUGESHAN 212224040337</h1>
-        <img src="\static\logo.png" alt="Logo" width="750" height="100">
-        <br>
-        <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 80%; text-align: center;" bordercolor="yellow">
-            <tr>
-                <td>days</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td> 
-                <td>Thursday</td>
-                <td>Friday</td>
-                <td>Saturday</td>            
-            </tr>
-            <tr>
-                <td>8:00-10:00</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
+<center> 
+<img src="/static/logo.png" height="100" width="540"> 
+</center>
+<br>
+<table align="center" cellspacing="2" cellpadding="4" border="2"> 
+<tr align="center"> 
+<th>S. No.</th> 
+<th>Subject Code</th> 
+<th>Subject Name</th> 
+</tr> 
+<tr> 
+<td align="center">1.</td> 
+<td align="center">19AI302</td> 
+<td>EDM</td> 
+</tr> 
+<tr> 
+<td align="center">2.</td> 
+<td align="center">19A1304</td> 
+<td>FUNDAMENTALS OF C PROGRAMMING (C PROGRAM)</td> 
+</tr> 
+<tr> 
+<td align="center">3.</td> 
+<td align="center">19A1414</td> 
+<td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT (FWAD)</td> 
+</tr> 
+<tr> 
+<td align="center">4.</td> 
+<td align="center">19CY205</td> 
+<td>PRINCIPLES IN CHEMISTRY ENGINEERING (CHE)</td> 
+</tr> 
+<tr> 
+<td align="center">5.</td> 
+<td align="center">19SH201</td> 
+<td>CALCULUS</td> 
+</tr> 
+<tr> 
+<td align="center">6.</td> 
+<td align="center">19SH202</td> 
+<td>PROBABILITY</td> 
+</tr> 
+</table> 
 
-            </tr>
-            <tr>
-                <td>10:00-12:00</td>
-                <td>c-proramming</td>
-                <td>-</td>
-                <td>calculus</td>
-                <td>fundamentals of web</td>
-                <td>-</td>
-                <td>edm</td>
-            </tr>
-            <tr>
-                <td>1:00-3:00</td>
-                <td>-</td>
-                <td>fundamentals of web</td>
-                <td>mentor meet</td>
-                <td>-</td>
-                <td>c-programming</td>
-                <td>chemistry</td>
-            </tr>
-            <tr>
-                <td>3:00-5:00</td>
-                <td>chemistry</td>
-                <td>-</td>
-                <td>edm</td>
-                <td>probability</td>
-                <td>calculus</td>
-                <td>probability</td>
-            </tr>
-        </table>
-    </center>
-</body>
+<center>
+    <h1>Slot Time Table - Sugeshan.S 212224040337</h1>
+    <br>
+    <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 80%; text-align: center;" bordercolor="yellow">
+        <tr>
+            <td>DAYS</td>
+            <td>MONDAY</td>
+            <td>TUESDAY</td>
+            <td>WEDNESDAY</td> 
+            <td>THURSDAY</td>
+            <td>FRIDAY</td>
+            <td>SATURDAY</td>            
+        </tr>
+        <tr>
+            <td>8:00-10:00</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+
+        </tr>
+        <tr>
+            <td>10:00-12:00</td>
+            <td>C-PROGRAMMING</td>
+            <td>-</td>
+            <td>CALCULUS</td>
+            <td>FUNDAMENTAL OF WEB APPLICATION</td>
+            <td>-</td>
+            <td>EDM</td>
+        </tr>
+        <tr>
+            <td>1:00-3:00</td>
+            <td>-</td>
+            <td>FUNDAMENTAL OF WEB APPLICATION</td>
+            <td>MENTOR MEET</td>
+            <td>-</td>
+            <td>C-PROGRAMMING</td>
+            <td>CHEMISTRY</td>
+        </tr>
+        <tr>
+            <td>3:00-5:00</td>
+            <td>CHEMISTRY</td>
+            <td>-</td>
+            <td>EDM</td>
+            <td>PROBABILITY</td>
+            <td>CALCULUS</td>
+            <td>PROBABILITY</td>
+        </tr>
+    </table>
+</center>
+
+</body> 
+</html>
 
 ```
 
 ## OUTPUT 
 
-![alt text](<Screenshot 2025-04-04 072824.png>)
+![alt text](<Screenshot 2025-04-22 185742.png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
